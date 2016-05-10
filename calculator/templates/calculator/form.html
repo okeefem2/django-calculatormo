@@ -1,0 +1,43 @@
+
+
+<h1>Michael O'Keefe's Calculator App</h1>
+<p>Usage: </br>
+	place numerical values into the argument forms </br>
+	select which operation to use with the radio buttons </br>
+	click submit to see the result and add the answer to the database </br>
+	click view all answers to retrieve all answers from the database </br>
+</p>
+<form action="/calculator/calculate/" method="post">{% csrf_token %}
+
+		<p>
+		<div class="ui-widget">
+		<label for="id_arg1">Argument1:</label>
+		<input id="id_arg1" type="text" name="arg1" maxlength="200" />
+		</div>
+		</p>
+
+		<p>
+		<div class="ui-widget">
+		<label for="id_arg2">Argument2:</label>
+		<input id="id_arg2" type="text" name="arg2" maxlength="200" />
+		</div>
+		</p>
+
+		<input type="radio" name="choice" id="addition" value="addition" />
+		<label for="addition">Addition</label><br/>
+		<input type="radio" name="choice" id="subtraction" value="subtraction" />
+		<label for="subtraction">Subtraction</label><br/>
+		<input type="radio" name="choice" id="multiplication" value="multiplication" />
+		<label for="multiplication">Multiplication</label><br/>
+		<input type="radio" name="choice" id="division" value="division" />
+		<label for="division">Division</label><br/>
+	</br>
+
+		<input type="submit" value="Submit" />
+		<br/>
+
+	</br>
+
+  <a href="{% url 'calculator:results' %}">View all results</a>
+
+	</form>

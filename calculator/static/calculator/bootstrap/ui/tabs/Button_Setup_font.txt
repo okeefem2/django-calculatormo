@@ -1,0 +1,5 @@
+For creating new buttons.  Use
+Century Gothic
+Bold
+12 pt
+Crisp
