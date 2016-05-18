@@ -18,6 +18,7 @@ Environment Set-up:
 
 3. Install PostgreSQL http://www.postgresql.org/download/ and create a database and user for use in Django
   * make sure to give the user all privileges on the database
+  * you may actually skip steps 3 and 4, default sqlite works fine with this application
 
 
 4. Move the CONTENTS of the included psycopg2 folder into your Python/Lib/site-packages/ folder in the location where you installed Python 3.5
