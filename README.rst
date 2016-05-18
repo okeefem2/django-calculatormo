@@ -12,8 +12,7 @@ Environment Set-up:
   * when installing, make sure pip is included in the installation process
   * also add python to PATH to make development easier.
 
-2. Run 'pip-install django'
-  in command line to install the newest version of django (assuming 1.9)
+2. Run 'pip-install django' in command line to install the newest version of django (assuming 1.9)
 
 3. Install PostgreSQL http://www.postgresql.org/download/ and create a database and user for use in Django
   * make sure to give the user all privileges on the database
