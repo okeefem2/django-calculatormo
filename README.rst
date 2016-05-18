@@ -15,7 +15,7 @@ Environment Set-up:
 2. Run 'pip-install django'
   in command line to install the newest version of django (assuming 1.9)
 
-3. Install PostreSQL http://www.postgresql.org/download/ and create a database and user for use in Django
+3. Install PostgreSQL http://www.postgresql.org/download/ and create a database and user for use in Django
   * make sure to give the user all privileges on the database
 
 4. Move the CONTENTS of the included psycopg2 folder into your Python/Lib/site-packages/ folder in the location where
