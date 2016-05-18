@@ -23,7 +23,7 @@ Environment Set-up:
 4. Move the CONTENTS of the included psycopg2 folder into your Python/Lib/site-packages/ folder in the location where you installed Python 3.5
 
 
-5. Run 'pip install --user dist/django-calculatormo-0.1.tar.gz' to install the calculator library
+5. Run 'pip install --user django-calculatormo-0.1.tar.gz' to install the calculator library
 
 
 6. Create a Django project by navigating to the directory you'd like your project to be in (in command line) and run
